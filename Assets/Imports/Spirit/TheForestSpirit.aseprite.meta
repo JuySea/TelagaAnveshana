@@ -1,0 +1,2488 @@
+fileFormatVersion: 2
+guid: a708a82b9b3b757478f3d8b25487cfc7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: TheForestSpirit_Frame_0
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 57
+      width: 11
+      height: 23
+    spriteID: fc951763a14f20848a44072703c8ca3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 57}
+  - name: TheForestSpirit_Frame_1
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 57
+      width: 11
+      height: 23
+    spriteID: faa1726e93a64554b8774f70063659bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 57}
+  - name: TheForestSpirit_Frame_2
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 128
+      width: 9
+      height: 22
+    spriteID: ae02a35184c1f564cb3033c7dff1a60e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 128}
+  - name: TheForestSpirit_Frame_3
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 215
+      y: 128
+      width: 9
+      height: 22
+    spriteID: 8987c3514df29c84b9f67bffddf1feff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 215, y: 128}
+  - name: TheForestSpirit_Frame_4
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 21
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 0f074f1ff9931f744ac3136cda7d38a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 21, y: 158}
+  - name: TheForestSpirit_Frame_5
+    originalName: 
+    pivot: {x: 2.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 128
+      width: 10
+      height: 22
+    spriteID: 8aa479134d26b02489f33725c8575917
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 128}
+  - name: TheForestSpirit_Frame_6
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 128
+      width: 9
+      height: 22
+    spriteID: 0c3355556982d1747916713f6243e4bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 128}
+  - name: TheForestSpirit_Frame_7
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 158
+      width: 9
+      height: 22
+    spriteID: fbcec1097bc984942ada7a96506145ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 158}
+  - name: TheForestSpirit_Frame_8
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 57
+      width: 11
+      height: 23
+    spriteID: 0e0f22a727c56194890425862b41fab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 57}
+  - name: TheForestSpirit_Frame_9
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 57
+      width: 11
+      height: 23
+    spriteID: 8f95d32475efefa45b32792b01fbc11c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 57}
+  - name: TheForestSpirit_Frame_10
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 158
+      width: 9
+      height: 22
+    spriteID: 5c1d6ca5a8f8f0e4f9d0c7e0a7df74f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 158}
+  - name: TheForestSpirit_Frame_11
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 57
+      width: 11
+      height: 23
+    spriteID: 83e4f65df52906f4fada5b1ae5f54de9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 57}
+  - name: TheForestSpirit_Frame_12
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 57
+      width: 11
+      height: 23
+    spriteID: ef12924c5106dcb4698d03a4dcd597db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 57}
+  - name: TheForestSpirit_Frame_13
+    originalName: 
+    pivot: {x: 2.3636363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 11
+      height: 21
+    spriteID: abbb068603e6f784cbf781351e97d060
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 128}
+  - name: TheForestSpirit_Frame_14
+    originalName: 
+    pivot: {x: 2.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 190
+      width: 10
+      height: 19
+    spriteID: 7445908ff9c07014188ba9b591ff3903
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 190}
+  - name: TheForestSpirit_Frame_15
+    originalName: 
+    pivot: {x: 2.1818182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 190
+      width: 11
+      height: 17
+    spriteID: dc429553288710e4a8b7d2c0e4769f9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 190}
+  - name: TheForestSpirit_Frame_16
+    originalName: 
+    pivot: {x: 1.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 190
+      width: 15
+      height: 13
+    spriteID: 4bd579090f19b0545b0fa26949800abb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 190}
+  - name: TheForestSpirit_Frame_17
+    originalName: 
+    pivot: {x: 1.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 128
+      width: 16
+      height: 13
+    spriteID: 2c451580d225c7d47b934e57dd2d3946
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 128}
+  - name: TheForestSpirit_Frame_18
+    originalName: 
+    pivot: {x: 1.2631578, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 19
+      height: 9
+    spriteID: 464b6ecbe0c921a42bbb7bd5feb641ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: TheForestSpirit_Frame_19
+    originalName: 
+    pivot: {x: 1.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 237
+      width: 18
+      height: 8
+    spriteID: 179645001725e35408075a98947f3d54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 237}
+  - name: TheForestSpirit_Frame_20
+    originalName: 
+    pivot: {x: 1.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 158
+      width: 18
+      height: 11
+    spriteID: 1cc9c5aabb2fff749a6d930eb5e0ef9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 158}
+  - name: TheForestSpirit_Frame_21
+    originalName: 
+    pivot: {x: 1.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 57
+      width: 18
+      height: 14
+    spriteID: b6bfa518a3daf384180c3a9ac86c23a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 57}
+  - name: TheForestSpirit_Frame_22
+    originalName: 
+    pivot: {x: 1.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 91
+      width: 18
+      height: 18
+    spriteID: 2a9c28fea7fb3ad43836853124cd28ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 91}
+  - name: TheForestSpirit_Frame_23
+    originalName: 
+    pivot: {x: 1.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 91
+      width: 18
+      height: 19
+    spriteID: 4ae5d4fc113ed334d9abc44fbc215d4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 91}
+  - name: TheForestSpirit_Frame_24
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 190
+      width: 9
+      height: 22
+    spriteID: bfff6c51b429578448da1cdbfcfeb881
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 190}
+  - name: TheForestSpirit_Frame_25
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 57347d4dd8c45d642aaa05f822214d6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 158}
+  - name: TheForestSpirit_Frame_26
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 21
+      y: 190
+      width: 9
+      height: 22
+    spriteID: 20510b4e87e4ebb46824446501b114ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 21, y: 190}
+  - name: TheForestSpirit_Frame_27
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 158
+      width: 9
+      height: 23
+    spriteID: a39f546b4442d9a47a5ba9714d9e9f14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 158}
+  - name: TheForestSpirit_Frame_28
+    originalName: 
+    pivot: {x: 2.1538463, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 91
+      width: 13
+      height: 22
+    spriteID: b8c8f3d64d7eb414fbbf0507782c6bd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 91}
+  - name: TheForestSpirit_Frame_29
+    originalName: 
+    pivot: {x: 2.1818182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 128
+      width: 11
+      height: 19
+    spriteID: 0804636e5451b184aa598c8c415c2b13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 128}
+  - name: TheForestSpirit_Frame_30
+    originalName: 
+    pivot: {x: 1.7692308, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 31
+      width: 13
+      height: 18
+    spriteID: d98aba3259b0a6f42b7851129b074789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 31}
+  - name: TheForestSpirit_Frame_31
+    originalName: 
+    pivot: {x: 1.5333333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 4
+      width: 15
+      height: 18
+    spriteID: 149d35e966694bd4da1fdd403fa01073
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 4}
+  - name: TheForestSpirit_Frame_32
+    originalName: 
+    pivot: {x: 1.2222222, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 91
+      width: 18
+      height: 18
+    spriteID: 2bdb1aa36df83b14dabecd7154d91bb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 91}
+  - name: TheForestSpirit_Frame_33
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 57
+      width: 11
+      height: 23
+    spriteID: e1cfaf14b0bd52e499be58d87c637ba4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 57}
+  - name: TheForestSpirit_Frame_34
+    originalName: 
+    pivot: {x: 2.3636363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 57
+      width: 11
+      height: 22
+    spriteID: 8b3ed184bf9fa4c4e9b0d08f444a04b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 57}
+  - name: TheForestSpirit_Frame_35
+    originalName: 
+    pivot: {x: 2.090909, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 128
+      width: 11
+      height: 19
+    spriteID: 370251eab5dd92e41b18e673fb5c03c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 128}
+  - name: TheForestSpirit_Frame_36
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 31
+      width: 11
+      height: 18
+    spriteID: 5ed11132653ff2a459beb339115b7eb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 31}
+  - name: TheForestSpirit_Frame_37
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 31
+      width: 11
+      height: 18
+    spriteID: 14671d7537305e249816d463b6478ab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 31}
+  - name: TheForestSpirit_Frame_38
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 31
+      width: 11
+      height: 18
+    spriteID: 005cfa0c2a224f749a4435f16480ec75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 31}
+  - name: TheForestSpirit_Frame_39
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 31
+      width: 11
+      height: 18
+    spriteID: 69edb9aa842c83c43b381a9b1b4c10df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 31}
+  - name: TheForestSpirit_Frame_40
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 207
+      y: 31
+      width: 11
+      height: 18
+    spriteID: 3d4a3ab5165e5404cb97ff0da97101bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 207, y: 31}
+  - name: TheForestSpirit_Frame_41
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 31
+      width: 11
+      height: 18
+    spriteID: b9943481bad9d664da849a707ed65c17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 31}
+  - name: TheForestSpirit_Frame_42
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 190
+      width: 11
+      height: 18
+    spriteID: 681366baa04fd2640b1408d5e224958d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 190}
+  - name: TheForestSpirit_Frame_43
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 57
+      y: 190
+      width: 11
+      height: 18
+    spriteID: b34326dd9b329ad47a8ef96e7e24ed28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 57, y: 190}
+  - name: TheForestSpirit_Frame_44
+    originalName: 
+    pivot: {x: 0.48148146, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 54
+      height: 19
+    spriteID: cf193266a77ee5c4f8537f0fbd13f4e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: TheForestSpirit_Frame_45
+    originalName: 
+    pivot: {x: 0.44897962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 49
+      height: 18
+    spriteID: 6b339786756fc4a488120eaf20d035be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: TheForestSpirit_Frame_46
+    originalName: 
+    pivot: {x: 0.44897962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 4
+      width: 49
+      height: 18
+    spriteID: d718211140ba6e040b18ea43a4c9b1fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 4}
+  - name: TheForestSpirit_Frame_47
+    originalName: 
+    pivot: {x: 0.44897962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 4
+      width: 49
+      height: 18
+    spriteID: 427c5c1809326584889f5a059c1be024
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 4}
+  - name: TheForestSpirit_Frame_48
+    originalName: 
+    pivot: {x: 0.47826084, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 46
+      height: 18
+    spriteID: 9827fd97c0c66d3469929722fd5deffb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: TheForestSpirit_Frame_49
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 31
+      width: 44
+      height: 18
+    spriteID: e835d93fb41e1c54f95837f8d5c5fd92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 31}
+  - name: TheForestSpirit_Frame_50
+    originalName: 
+    pivot: {x: 1.9999999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 190
+      width: 11
+      height: 18
+    spriteID: ab4637e91a33b2d4ca7bb015a8894a54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 190}
+  - name: TheForestSpirit_Frame_51
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 11d5096e0fb0c834b89f0866f7263288
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 158}
+  - name: TheForestSpirit_Frame_52
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 0ecb88439b099304ea2909bef0d9003f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 158}
+  - name: TheForestSpirit_Frame_53
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 190
+      width: 9
+      height: 22
+    spriteID: 42a3d19db43b6c342af3ba5d9e9d554b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 190}
+  - name: TheForestSpirit_Frame_54
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 158
+      width: 9
+      height: 23
+    spriteID: f0c501d00e5c1e94a9f1caca6c4e51e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 158}
+  - name: TheForestSpirit_Frame_55
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 9
+      height: 24
+    spriteID: 52620ced362b1d14b9c42c3893a6b2e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: TheForestSpirit_Frame_56
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 57
+      width: 11
+      height: 23
+    spriteID: 87e70df8b6f883e4cb08d448cc3969bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 57}
+  - name: TheForestSpirit_Frame_57
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 5eabe18b8bb1df34d9b38b1a695c8360
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 158}
+  - name: TheForestSpirit_Frame_58
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 3b522d6fcad0eb5438855db83a50370c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 158}
+  - name: TheForestSpirit_Frame_59
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 158
+      width: 9
+      height: 23
+    spriteID: 55e3baadcec1b4a42a42dd2f8709de38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 158}
+  - name: TheForestSpirit_Frame_60
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 158
+      width: 9
+      height: 23
+    spriteID: cbd3f0f567b741240bce9c01c994f047
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 158}
+  - name: TheForestSpirit_Frame_61
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 190
+      width: 9
+      height: 22
+    spriteID: 262670f910e4e1d4a9e307819a081c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 190}
+  - name: TheForestSpirit_Frame_62
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 190
+      width: 9
+      height: 20
+    spriteID: 6c5067c5737b1ca4e9cd7b03e7283087
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 208, y: 190}
+  - name: TheForestSpirit_Frame_63
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 190
+      width: 9
+      height: 18
+    spriteID: 778708ae916353544b2e80ebf7e6f056
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 190}
+  - name: TheForestSpirit_Frame_64
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 220
+      width: 9
+      height: 18
+    spriteID: a7f3d1baf39fe99429d96494f55cf3c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 220}
+  - name: TheForestSpirit_Frame_65
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 220
+      width: 9
+      height: 17
+    spriteID: b42085439300330408702f6def44b2a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 220}
+  - name: TheForestSpirit_Frame_66
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 220
+      width: 9
+      height: 17
+    spriteID: 316c474e84438814693fa9901a2f8d71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 220}
+  - name: TheForestSpirit_Frame_67
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 220
+      width: 9
+      height: 18
+    spriteID: 6ee4d3879ce866244a27c7e36508d0ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 220}
+  - name: TheForestSpirit_Frame_68
+    originalName: 
+    pivot: {x: 1.7333333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 91
+      width: 15
+      height: 28
+    spriteID: e2220f6099b76f24e9b51f7a8fc87e4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 91}
+  - name: TheForestSpirit_Frame_69
+    originalName: 
+    pivot: {x: 1.4444444, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 57
+      width: 18
+      height: 26
+    spriteID: a7cc579377d35cd4aafd04e4b42b335d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 57}
+  - name: TheForestSpirit_Frame_70
+    originalName: 
+    pivot: {x: 1.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 91
+      width: 16
+      height: 25
+    spriteID: 12f7807e5e5ab2a49b59ba460923cf18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 91}
+  - name: TheForestSpirit_Frame_71
+    originalName: 
+    pivot: {x: 1.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 91
+      width: 16
+      height: 26
+    spriteID: d24d0ab3d9cb51e4b9467b832ae57010
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 91}
+  - name: TheForestSpirit_Frame_72
+    originalName: 
+    pivot: {x: 1.7333333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 91
+      width: 15
+      height: 29
+    spriteID: 4b59289b895823445bb8c83b08f68a36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 91}
+  - name: TheForestSpirit_Frame_73
+    originalName: 
+    pivot: {x: 1.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 16
+      height: 29
+    spriteID: 95748b3a699715942884ebfcf38e149a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: TheForestSpirit_Frame_74
+    originalName: 
+    pivot: {x: 1.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 91
+      width: 16
+      height: 28
+    spriteID: cca78d5aee174de4e92a53320fbe3e3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 91}
+  - name: TheForestSpirit_Frame_75
+    originalName: 
+    pivot: {x: 2.5454545, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 128
+      width: 11
+      height: 20
+    spriteID: 5dccc40cbda459047943a1bdeb8c60b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 128}
+  - name: TheForestSpirit_Frame_76
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 190
+      width: 11
+      height: 18
+    spriteID: 5869388c6727a2d4f8c4c3aa8aeb7617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 190}
+  - name: TheForestSpirit_Frame_77
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 11
+      height: 22
+    spriteID: c79b6604aca4d934c9893c2c853c8029
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: TheForestSpirit_Frame_78
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 128
+      width: 11
+      height: 22
+    spriteID: bea3764a725dd1741a1a77ace8861e6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 128}
+  - name: TheForestSpirit_Frame_79
+    originalName: 
+    pivot: {x: 2.1538463, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 57
+      width: 13
+      height: 22
+    spriteID: 0c22d9adca1a6f04fbb5ee54e46792e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 57}
+  - name: TheForestSpirit_Frame_80
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 128
+      width: 11
+      height: 22
+    spriteID: 8e9be2608462c1945b1acc8de7650899
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 128}
+  - name: TheForestSpirit_Frame_81
+    originalName: 
+    pivot: {x: 2.4545455, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 128
+      width: 11
+      height: 22
+    spriteID: 8d58ca4ddad981846976e1c8b8b6d0d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 128}
+  - name: TheForestSpirit_Frame_82
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 190
+      width: 9
+      height: 20
+    spriteID: 276cd538f475cae499bc074e85181aa1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 190}
+  - name: TheForestSpirit_Frame_83
+    originalName: 
+    pivot: {x: 2.8888888, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 220
+      width: 9
+      height: 18
+    spriteID: 7e0df5cd9613c0247bb9f1f8833087b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 220}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -522043803
+    name: TheForestSpirit
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: TheForestSpirit_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: fc951763a14f20848a44072703c8ca3e
+    - name: TheForestSpirit_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: faa1726e93a64554b8774f70063659bd
+    - name: TheForestSpirit_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: ae02a35184c1f564cb3033c7dff1a60e
+    - name: TheForestSpirit_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 8987c3514df29c84b9f67bffddf1feff
+    - name: TheForestSpirit_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 0f074f1ff9931f744ac3136cda7d38a8
+    - name: TheForestSpirit_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 0
+        width: 10
+        height: 22
+      spriteId: 8aa479134d26b02489f33725c8575917
+    - name: TheForestSpirit_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 0c3355556982d1747916713f6243e4bc
+    - name: TheForestSpirit_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: fbcec1097bc984942ada7a96506145ee
+    - name: TheForestSpirit_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: 0e0f22a727c56194890425862b41fab0
+    - name: TheForestSpirit_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: 8f95d32475efefa45b32792b01fbc11c
+    - name: TheForestSpirit_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 5c1d6ca5a8f8f0e4f9d0c7e0a7df74f4
+    - name: TheForestSpirit_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: 83e4f65df52906f4fada5b1ae5f54de9
+    - name: TheForestSpirit_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: ef12924c5106dcb4698d03a4dcd597db
+    - name: TheForestSpirit_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 0
+        width: 11
+        height: 21
+      spriteId: abbb068603e6f784cbf781351e97d060
+    - name: TheForestSpirit_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 3
+        y: 0
+        width: 10
+        height: 19
+      spriteId: 7445908ff9c07014188ba9b591ff3903
+    - name: TheForestSpirit_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 4
+        y: 0
+        width: 11
+        height: 17
+      spriteId: dc429553288710e4a8b7d2c0e4769f9b
+    - name: TheForestSpirit_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 4
+        y: 0
+        width: 15
+        height: 13
+      spriteId: 4bd579090f19b0545b0fa26949800abb
+    - name: TheForestSpirit_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 4
+        y: 0
+        width: 16
+        height: 13
+      spriteId: 2c451580d225c7d47b934e57dd2d3946
+    - name: TheForestSpirit_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 4
+        y: 0
+        width: 19
+        height: 9
+      spriteId: 464b6ecbe0c921a42bbb7bd5feb641ab
+    - name: TheForestSpirit_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 8
+      spriteId: 179645001725e35408075a98947f3d54
+    - name: TheForestSpirit_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 11
+      spriteId: 1cc9c5aabb2fff749a6d930eb5e0ef9c
+    - name: TheForestSpirit_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 14
+      spriteId: b6bfa518a3daf384180c3a9ac86c23a3
+    - name: TheForestSpirit_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 18
+      spriteId: 2a9c28fea7fb3ad43836853124cd28ca
+    - name: TheForestSpirit_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 19
+      spriteId: 4ae5d4fc113ed334d9abc44fbc215d4a
+    - name: TheForestSpirit_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: bfff6c51b429578448da1cdbfcfeb881
+    - name: TheForestSpirit_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 57347d4dd8c45d642aaa05f822214d6b
+    - name: TheForestSpirit_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 20510b4e87e4ebb46824446501b114ab
+    - name: TheForestSpirit_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: a39f546b4442d9a47a5ba9714d9e9f14
+    - name: TheForestSpirit_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 13
+        height: 22
+      spriteId: b8c8f3d64d7eb414fbbf0507782c6bd2
+    - name: TheForestSpirit_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 4
+        y: 0
+        width: 11
+        height: 19
+      spriteId: 0804636e5451b184aa598c8c415c2b13
+    - name: TheForestSpirit_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 5
+        y: 0
+        width: 13
+        height: 18
+      spriteId: d98aba3259b0a6f42b7851129b074789
+    - name: TheForestSpirit_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 5
+        y: 0
+        width: 15
+        height: 18
+      spriteId: 149d35e966694bd4da1fdd403fa01073
+    - name: TheForestSpirit_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 6
+        y: 0
+        width: 18
+        height: 18
+      spriteId: 2bdb1aa36df83b14dabecd7154d91bb1
+    - name: TheForestSpirit_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: e1cfaf14b0bd52e499be58d87c637ba4
+    - name: TheForestSpirit_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 2
+        y: 0
+        width: 11
+        height: 22
+      spriteId: 8b3ed184bf9fa4c4e9b0d08f444a04b9
+    - name: TheForestSpirit_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 5
+        y: 0
+        width: 11
+        height: 19
+      spriteId: 370251eab5dd92e41b18e673fb5c03c6
+    - name: TheForestSpirit_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 5ed11132653ff2a459beb339115b7eb6
+    - name: TheForestSpirit_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 14671d7537305e249816d463b6478ab0
+    - name: TheForestSpirit_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 005cfa0c2a224f749a4435f16480ec75
+    - name: TheForestSpirit_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 69edb9aa842c83c43b381a9b1b4c10df
+    - name: TheForestSpirit_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 3d4a3ab5165e5404cb97ff0da97101bd
+    - name: TheForestSpirit_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: b9943481bad9d664da849a707ed65c17
+    - name: TheForestSpirit_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 681366baa04fd2640b1408d5e224958d
+    - name: TheForestSpirit_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: b34326dd9b329ad47a8ef96e7e24ed28
+    - name: TheForestSpirit_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 2
+        y: 0
+        width: 54
+        height: 19
+      spriteId: cf193266a77ee5c4f8537f0fbd13f4e8
+    - name: TheForestSpirit_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 6
+        y: 0
+        width: 49
+        height: 18
+      spriteId: 6b339786756fc4a488120eaf20d035be
+    - name: TheForestSpirit_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 6
+        y: 0
+        width: 49
+        height: 18
+      spriteId: d718211140ba6e040b18ea43a4c9b1fb
+    - name: TheForestSpirit_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 6
+        y: 0
+        width: 49
+        height: 18
+      spriteId: 427c5c1809326584889f5a059c1be024
+    - name: TheForestSpirit_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 6
+        y: 0
+        width: 46
+        height: 18
+      spriteId: 9827fd97c0c66d3469929722fd5deffb
+    - name: TheForestSpirit_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 6
+        y: 0
+        width: 44
+        height: 18
+      spriteId: e835d93fb41e1c54f95837f8d5c5fd92
+    - name: TheForestSpirit_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 6
+        y: 0
+        width: 11
+        height: 18
+      spriteId: ab4637e91a33b2d4ca7bb015a8894a54
+    - name: TheForestSpirit_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 11d5096e0fb0c834b89f0866f7263288
+    - name: TheForestSpirit_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 0ecb88439b099304ea2909bef0d9003f
+    - name: TheForestSpirit_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 42a3d19db43b6c342af3ba5d9e9d554b
+    - name: TheForestSpirit_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: f0c501d00e5c1e94a9f1caca6c4e51e0
+    - name: TheForestSpirit_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 24
+      spriteId: 52620ced362b1d14b9c42c3893a6b2e6
+    - name: TheForestSpirit_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 23
+      spriteId: 87e70df8b6f883e4cb08d448cc3969bb
+    - name: TheForestSpirit_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 5eabe18b8bb1df34d9b38b1a695c8360
+    - name: TheForestSpirit_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 3b522d6fcad0eb5438855db83a50370c
+    - name: TheForestSpirit_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: 55e3baadcec1b4a42a42dd2f8709de38
+    - name: TheForestSpirit_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 23
+      spriteId: cbd3f0f567b741240bce9c01c994f047
+    - name: TheForestSpirit_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 22
+      spriteId: 262670f910e4e1d4a9e307819a081c6a
+    - name: TheForestSpirit_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 20
+      spriteId: 6c5067c5737b1ca4e9cd7b03e7283087
+    - name: TheForestSpirit_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 18
+      spriteId: 778708ae916353544b2e80ebf7e6f056
+    - name: TheForestSpirit_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 18
+      spriteId: a7f3d1baf39fe99429d96494f55cf3c7
+    - name: TheForestSpirit_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 17
+      spriteId: b42085439300330408702f6def44b2a9
+    - name: TheForestSpirit_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 17
+      spriteId: 316c474e84438814693fa9901a2f8d71
+    - name: TheForestSpirit_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 18
+      spriteId: 6ee4d3879ce866244a27c7e36508d0ad
+    - name: TheForestSpirit_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 2
+        y: 0
+        width: 15
+        height: 28
+      spriteId: e2220f6099b76f24e9b51f7a8fc87e4a
+    - name: TheForestSpirit_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 2
+        y: 0
+        width: 18
+        height: 26
+      spriteId: a7cc579377d35cd4aafd04e4b42b335d
+    - name: TheForestSpirit_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 2
+        y: 0
+        width: 16
+        height: 25
+      spriteId: 12f7807e5e5ab2a49b59ba460923cf18
+    - name: TheForestSpirit_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 2
+        y: 0
+        width: 16
+        height: 26
+      spriteId: d24d0ab3d9cb51e4b9467b832ae57010
+    - name: TheForestSpirit_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 2
+        y: 0
+        width: 15
+        height: 29
+      spriteId: 4b59289b895823445bb8c83b08f68a36
+    - name: TheForestSpirit_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 2
+        y: 0
+        width: 16
+        height: 29
+      spriteId: 95748b3a699715942884ebfcf38e149a
+    - name: TheForestSpirit_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 2
+        y: 0
+        width: 16
+        height: 28
+      spriteId: cca78d5aee174de4e92a53320fbe3e3c
+    - name: TheForestSpirit_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 11
+        height: 20
+      spriteId: 5dccc40cbda459047943a1bdeb8c60b7
+    - name: TheForestSpirit_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 18
+      spriteId: 5869388c6727a2d4f8c4c3aa8aeb7617
+    - name: TheForestSpirit_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 22
+      spriteId: c79b6604aca4d934c9893c2c853c8029
+    - name: TheForestSpirit_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 22
+      spriteId: bea3764a725dd1741a1a77ace8861e6b
+    - name: TheForestSpirit_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 13
+        height: 22
+      spriteId: 0c22d9adca1a6f04fbb5ee54e46792e4
+    - name: TheForestSpirit_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 22
+      spriteId: 8e9be2608462c1945b1acc8de7650899
+    - name: TheForestSpirit_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 1
+        y: 0
+        width: 11
+        height: 22
+      spriteId: 8d58ca4ddad981846976e1c8b8b6d0d6
+    - name: TheForestSpirit_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 20
+      spriteId: 276cd538f475cae499bc074e85181aa1
+    - name: TheForestSpirit_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 2
+        y: 0
+        width: 9
+        height: 18
+      spriteId: 7e0df5cd9613c0247bb9f1f8833087b7
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 56, y: 29}
