@@ -9,7 +9,9 @@ public class PlayerState
     protected float yInput;
     private string animBoolName;
     protected float stateTimer;
-    protected bool triggerCalled; 
+    protected bool triggerCalled;
+    protected int count = 0;
+
 
     public PlayerState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName)
     {
@@ -37,5 +39,5 @@ public class PlayerState
         player.anim.SetBool(animBoolName, false);
     }
 
-    public virtual void AnimationFinishTrigger() => triggerCalled = true;
+    public virtual void AnimationFinishTrigger() {triggerCalled = true; }
 }

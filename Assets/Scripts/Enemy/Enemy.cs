@@ -9,7 +9,7 @@ public class Enemy : Entity
     [SerializeField] protected LayerMask playerLayer;
     
     [Header("Move Info")]
-    public float moveSpeed = 5;
+    public float moveSpeed = 2;
     public float idleTime = 2;
     public float battleTime = 8;
     public float battleRange = 7;
@@ -91,13 +91,13 @@ public class Enemy : Entity
     public virtual void OpenCounterAttackWindow()
     {
         isCanBeStunned = true;
-        //counterWindow.SetActive(true);
+        counterWindow.SetActive(true);
     }
 
     public virtual void CloseCounterAttackWindow()
     {
         isCanBeStunned = false;
-        //counterWindow.SetActive(false);
+        counterWindow.SetActive(false);
     }
 
     public virtual bool CanBeStunned()

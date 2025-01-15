@@ -18,7 +18,6 @@ public class UI_Healthbar : MonoBehaviour
         stats = GetComponentInParent<CharacterStats>();
 
         entity.onFlipped += FlipUI;
-        entity.onDied += DestroyUI;
         stats.onHealthChanged += UpdateHealthUI;
         UpdateHealthUI();
     }
@@ -34,15 +33,9 @@ public class UI_Healthbar : MonoBehaviour
         rectTransform.Rotate(0, 180, 0);
     }
 
-    private void DestroyUI()
-    {
-        Destroy(gameObject);
-    }
-
     private void OnDisable()
     {
         entity.onFlipped -= FlipUI;
-        entity.onDied -= DestroyUI;
         stats.onHealthChanged -= UpdateHealthUI;
     }
 }

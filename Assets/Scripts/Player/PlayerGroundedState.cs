@@ -9,6 +9,7 @@ public class PlayerGroundedState : PlayerState
     {
     }
 
+
     public override void Enter()
     {
         base.Enter();
@@ -38,7 +39,7 @@ public class PlayerGroundedState : PlayerState
         if (!player.IsGrounded())
             stateMachine.ChangeState(player.airState);
 
-        if (Input.GetKey(KeyCode.H) || Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.H))
             stateMachine.ChangeState(player.primaryAttack);
 
         if (Input.GetKeyDown(KeyCode.W) && player.IsGrounded())

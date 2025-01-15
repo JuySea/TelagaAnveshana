@@ -11,36 +11,52 @@ public class PlayerCounterAttackState : PlayerState
     public override void Enter()
     {
         base.Enter();
-
-        stateTimer = .2f;
+        stateTimer = .9f;
         player.anim.SetBool("SuccessfulCounterAttack", false);
     }
 
     public override void Exit()
     {
         base.Exit();
+
     }
 
     public override void Update()
     {
         base.Update();
+     
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(player.attackCheck.position, player.attackCheckRadius);
-        foreach(var hit in colliders) 
+        if( triggerCalled)
         {
-            if(hit.GetComponent<Enemy>() != null)
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(player.attackCheck.position, player.attackCheckRadius);
+            foreach (var hit in colliders)
             {
-                if (hit.GetComponent<Enemy>().CanBeStunned())
+                if (hit.GetComponent<Enemy>() != null)
                 {
-                    stateTimer = 10;
-                    player.anim.SetBool("SuccessfulCounterAttack", true);
-                }
-            }
-        }
+                    if (hit.GetComponent<Enemy>().CanBeStunned())
+                    {
+                        stateTimer = 10;
+                        stateMachine.ChangeState(player.counterAttackSuccessful);
 
-        if(stateTimer < 0 || triggerCalled)
-        {
-            stateMachine.ChangeState(player.idleState);
+                    }
+                    else
+                    {
+                        stateMachine.ChangeState(player.idleState);
+
+                    }
+                }
+
+
+
+            }
+            if (colliders.Length == 0)
+            {
+                Debug.Log("ASDASDASD");
+
+                stateMachine.ChangeState(player.idleState);
+
+            }
+
         }
     }
 }

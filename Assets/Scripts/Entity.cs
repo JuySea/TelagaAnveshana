@@ -31,8 +31,6 @@ public class Entity : MonoBehaviour
     #endregion
 
     public System.Action onFlipped;
-    public System.Action onDied;
-
     protected virtual void Awake()
     {
         sr = GetComponentInChildren<SpriteRenderer>();
@@ -148,7 +146,6 @@ public class Entity : MonoBehaviour
 
     public virtual void Die()
     {
-        if (onDied != null)
-            onDied();
+
     }
 }

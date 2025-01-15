@@ -2,16 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
-using UnityEngine.SceneManagement; // DELETE THIS LATER
-
 
 public class Player : Entity
 {
     [Header("Move Info")]
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
-    public float dashDuration = 0.3f;
-    public float dashSpeed = 22f;
+    public float dashDuration = 0.15f;
+    public float dashSpeed = 18f;
 
     private float defaultMoveSpeed;
     private float defaultJumpForce;
@@ -38,6 +36,7 @@ public class Player : Entity
 
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
     public PlayerCounterAttackState counterAttack { get; private set; }
+    public PlayerCounterAttackSuccessfulState counterAttackSuccessful { get; private set; }
 
     public PlayerAimSwordState aimSword { get; private set; }
     public PlayerCatchSwordState catchSword { get; private set; }
@@ -64,6 +63,7 @@ public class Player : Entity
         wallJump = new PlayerWallJumpState(this, stateMachine, "Jump");
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
+        counterAttackSuccessful = new PlayerCounterAttackSuccessfulState(this, stateMachine, "SuccessfulCounterAttack");
         deadState = new PlayerDeadState(this, stateMachine, "Die");
 
         aimSword = new PlayerAimSwordState(this, stateMachine, "AimSword");
@@ -87,13 +87,6 @@ public class Player : Entity
         base.Update();
         stateMachine.currentState.Update();
         CheckDashInput();
-
-        // DELETE THIS LATER
-        if (Input.GetKeyDown(KeyCode.Backslash))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-
     }
 
     public override void SlowEntity(float slowPercentage, float slowDuration)

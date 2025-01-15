@@ -199,7 +199,6 @@ public class Sword_Skill_Controller : MonoBehaviour
                     if (hit.GetComponent<Enemy>() != null)
                     {
                         enemyTarget.Add(hit.transform);
-                        hit.GetComponent<CharacterStats>().TakeDamage(500);
                     }
                 }
             }
