@@ -1,33 +1,53 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void NewGame()
+    public GameObject SettingMenu;
+    public GameObject difficultyMenu;
+    public GameObject confirmationMenu;
+
+    private bool isSettingOpen;
+    private bool isDifficultyOpen;
+    private bool isConfirmationOpen;
+
+    private void Update()
     {
-        Debug.Log("New Game started");
-        // Ganti "GameScene" dengan nama scene game utama
-        SceneManager.LoadScene("Level 1");
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isSettingOpen)
+            {
+                ExitSetting();
+            }
+
+        }
+
     }
 
-    public void LoadGame()
+    public void ExitSetting()
     {
-        Debug.Log("Load Game selected");
-        // Tambahkan logika untuk memuat data game yang disimpan
-        // Contoh sederhana:
-        // Load data dari file atau PlayerPrefs
+        SettingMenu.SetActive(false);
+        isSettingOpen = false;
     }
 
-    public void OpenSettings()
+    public void OpenSetting()
     {
-        Debug.Log("Settings menu opened");
-        // Tambahkan logika untuk menampilkan menu pengaturan
-        // Misalnya, aktifkan panel pengaturan
+        SettingMenu.SetActive(true);
+        isSettingOpen = true;
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()
     {
-        Debug.Log("Game exited");
         Application.Quit();
     }
+
+
+
 }

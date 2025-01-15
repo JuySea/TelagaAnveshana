@@ -29,7 +29,7 @@ public class PlayerAimSwordState : PlayerState
 
         player.ZeroVelocity();
 
-        if (Input.GetKeyUp(KeyCode.Mouse1))
+        if (Input.GetKeyUp(KeyCode.Mouse2))
         {
             stateMachine.ChangeState(player.idleState);
         }

@@ -7,6 +7,7 @@ public class Enemy : Entity
     public EnemyStateMachine stateMachine;
 
     [SerializeField] protected LayerMask playerLayer;
+    protected Player player;
     
     [Header("Move Info")]
     public float moveSpeed = 2;
@@ -26,6 +27,7 @@ public class Enemy : Entity
     protected override void Awake()
     {
         base.Awake();
+        player = PlayerManager.instance.player;
         stateMachine = new EnemyStateMachine();
 
         defaultMoveSpeed = moveSpeed;

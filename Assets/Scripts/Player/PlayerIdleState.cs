@@ -11,6 +11,7 @@ public class PlayerIdleState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        player.IsTired = false;
 
         player.SetVelocity(0, 0);
     }

@@ -11,11 +11,7 @@ public class PlayerCounterAttackSuccessfulState : PlayerState
     public override void Enter()
     {
         base.Enter();
-
-        triggerCalled = false;
-        stateTimer = .9f;
         player.anim.SetBool("CounterAttack", false);
-
         
     }
 

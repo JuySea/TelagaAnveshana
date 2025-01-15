@@ -41,7 +41,7 @@ public class Enemy_Skeleton : Enemy
 
     public override bool CanBeStunned()
     {
-        if (base.isCanBeStunned)
+        if (base.isCanBeStunned && player.counterCooldown <= 0)
         {
             CloseCounterAttackWindow();
             stateMachine.ChangeState(stunnedState); 

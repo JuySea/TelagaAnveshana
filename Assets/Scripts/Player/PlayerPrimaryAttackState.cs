@@ -15,6 +15,7 @@ public class PlayerPrimaryAttackState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        PlayerManager.instance.stats.StaminaUsed(7);
         xInput = 0;
 
         float attackDir = player.facingDir;

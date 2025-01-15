@@ -11,29 +11,35 @@ public class PlayerCounterAttackState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        stateTimer = .9f;
-        player.anim.SetBool("SuccessfulCounterAttack", false);
     }
 
     public override void Exit()
     {
         base.Exit();
-
+        player.counterCooldown = .29f;
     }
 
     public override void Update()
     {
         base.Update();
+
+        player.rb.velocity = new Vector2(0,rb.velocity.y);
      
 
         if( triggerCalled)
         {
             Collider2D[] colliders = Physics2D.OverlapCircleAll(player.attackCheck.position, player.attackCheckRadius);
+
+            if (colliders.Length < 1 ) 
+            {
+                stateMachine.ChangeState(player.idleState);
+            }
+
             foreach (var hit in colliders)
             {
                 if (hit.GetComponent<Enemy>() != null)
                 {
-                    if (hit.GetComponent<Enemy>().CanBeStunned())
+                    if (hit.GetComponent<Enemy>().CanBeStunned() && player.counterCooldown < 0)
                     {
                         stateTimer = 10;
                         stateMachine.ChangeState(player.counterAttackSuccessful);
@@ -45,17 +51,13 @@ public class PlayerCounterAttackState : PlayerState
 
                     }
                 }
+                else
+                {
+                    stateMachine.ChangeState(player.idleState);
 
-
-
+                }
             }
-            if (colliders.Length == 0)
-            {
-                Debug.Log("ASDASDASD");
 
-                stateMachine.ChangeState(player.idleState);
-
-            }
 
         }
     }

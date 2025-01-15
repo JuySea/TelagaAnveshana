@@ -23,6 +23,8 @@ public class CharacterStats : MonoBehaviour
     public Stats evasion;
     public Stats magicRes;
 
+
+
     [Header("Magic Stats")]
     public Stats fireDamage;
     public Stats iceDamage;
@@ -62,13 +64,17 @@ public class CharacterStats : MonoBehaviour
     {
         critPower.SetDefaultValue(150);
         currentHealth = GetMaxHealthValue();
+
     }
 
     protected virtual void Update()
     {
         IgniteDamage();
         ChillDamage();
+
     }
+
+    
 
     private void IgniteDamage()
     {
@@ -258,15 +264,14 @@ public class CharacterStats : MonoBehaviour
     protected virtual void DecreaseHealthBy(int damage)
     {
         currentHealth -= damage;
-
+        Debug.Log(damage);
         if (onHealthChanged != null)
             onHealthChanged();
     }
     public virtual void TakeDamage(int damage)
     {
         DecreaseHealthBy(damage);
-
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }

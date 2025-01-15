@@ -8,12 +8,12 @@ public class PlayerDashState : PlayerState
     {
     }
 
+    private float dodgeDistance = 8f;
+
     public override void Enter()
     {
         base.Enter();
 
-        player.skill.clone.CreateClone(player.transform, 1.2f, Vector3.zero);
-        stateTimer = player.dashDuration;
     }
 
     public override void Exit()
@@ -27,9 +27,9 @@ public class PlayerDashState : PlayerState
     {
         base.Update();
 
-        player.SetVelocity(player.dashSpeed * player.facingDir, rb.velocity.y);
+        player.SetVelocity(dodgeDistance * player.facingDir, rb.velocity.y);
 
-        if (stateTimer < 0) 
+        if (triggerCalled) 
             stateMachine.ChangeState(player.idleState);
         
 

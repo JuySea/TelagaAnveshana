@@ -9,8 +9,10 @@ public class Player : Entity
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
     public float dashDuration = 0.15f;
-    public float dashSpeed = 18f;
+    public float dashSpeed = 2;
+    public float staminaUsedForDash = 15;
 
+    public float counterCooldown;
     private float defaultMoveSpeed;
     private float defaultJumpForce;
     private float defaultDashSpeed;
@@ -18,6 +20,7 @@ public class Player : Entity
     [SerializeField] private float dashCooldown = 1f;
     [SerializeField] private float dashCooldownTimer;
     public bool IsBusy { get; private set; } = false;
+    public bool IsTired = false;
     public Vector2[] attackMovement;
     public GameObject sword { get; private set; }
     public float swordReturnImpact = 5f;
@@ -40,7 +43,7 @@ public class Player : Entity
 
     public PlayerAimSwordState aimSword { get; private set; }
     public PlayerCatchSwordState catchSword { get; private set; }
-    public PlayerBlackholeState blackhole { get; private set; }
+    public PlayerTiredState tiredState { get; private set; }
 
     #endregion
 
@@ -68,7 +71,7 @@ public class Player : Entity
 
         aimSword = new PlayerAimSwordState(this, stateMachine, "AimSword");
         catchSword = new PlayerCatchSwordState(this, stateMachine, "CatchSword");
-        blackhole = new PlayerBlackholeState(this, stateMachine, "Jump");
+        tiredState = new PlayerTiredState(this, stateMachine, "Tired");
     }
 
     protected override void Start()
@@ -121,6 +124,10 @@ public class Player : Entity
 
     private void CheckDashInput()
     {
+        if (PlayerManager.instance.stats.stamina < staminaUsedForDash)
+        {
+            return;
+        }
 
         if (IsWallDetected())
             return;
@@ -135,7 +142,7 @@ public class Player : Entity
 
             if (dashDir == 0)
                 dashDir = facingDir;
-
+            PlayerManager.instance.stats.StaminaUsed(staminaUsedForDash);
             stateMachine.ChangeState(dashState);
         }
     }
@@ -149,6 +156,12 @@ public class Player : Entity
     {
         stateMachine.ChangeState(catchSword);
         Destroy(sword);
+    }
+
+    public void Tired()
+    {
+        IsTired = true;
+        stateMachine.ChangeState(tiredState);
     }
 
     public override void Die()
