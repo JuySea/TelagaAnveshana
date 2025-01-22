@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
-    private Player player;
+    public Player player;
 
     [Header("Stamina")]
     public Stats maxStamina;
@@ -18,6 +18,7 @@ public class PlayerStats : CharacterStats
     protected override void Awake()
     {
         base.Awake();
+        player=  GetComponent<Player>();
     }
 
     protected override void Start()
@@ -27,7 +28,6 @@ public class PlayerStats : CharacterStats
         stamina = GetMaxStaminaValue();
         StaminaUsed(0);
         player = GetComponent<Player>();
-        Debug.Log("stamina"+ stamina);
     }
 
     public int GetMaxStaminaValue()
@@ -39,6 +39,10 @@ public class PlayerStats : CharacterStats
     {
         base.Update();
         StaminaRecovery();
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            currentHealth = 100;
+        }
     }
 
     public void StaminaUsed(float staminaValue)
@@ -75,11 +79,9 @@ public class PlayerStats : CharacterStats
         stamina += Time.deltaTime * 6.4f;
         stamina = Mathf.Clamp(stamina, 0, GetMaxStaminaValue());
 
-        Debug.Log($"Stamina recovered. Current: {stamina}");
 
         if (onStaminaChanged != null)
         {
-            Debug.Log("onStaminaChanged event invoked.");
             onStaminaChanged();
         }
     }
@@ -88,6 +90,8 @@ public class PlayerStats : CharacterStats
 
     public override void TakeDamage(int damage)
     {
+        if (player.IsInvincible)
+            return;
         base.TakeDamage(damage);
     }
 

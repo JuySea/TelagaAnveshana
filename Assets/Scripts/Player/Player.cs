@@ -11,6 +11,8 @@ public class Player : Entity
     public float dashDuration = 0.15f;
     public float dashSpeed = 2;
     public float staminaUsedForDash = 15;
+    public bool IsDead = false;
+    public bool IsInvincible = false;
 
     public float counterCooldown;
     private float defaultMoveSpeed;
@@ -143,6 +145,7 @@ public class Player : Entity
             if (dashDir == 0)
                 dashDir = facingDir;
             PlayerManager.instance.stats.StaminaUsed(staminaUsedForDash);
+            IsInvincible = true;
             stateMachine.ChangeState(dashState);
         }
     }
@@ -167,6 +170,7 @@ public class Player : Entity
     public override void Die()
     {
         base.Die();
+        IsDead = true;
 
         stateMachine.ChangeState(deadState);
     }

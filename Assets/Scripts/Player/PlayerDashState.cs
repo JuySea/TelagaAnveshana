@@ -19,6 +19,7 @@ public class PlayerDashState : PlayerState
     public override void Exit()
     {
         base.Exit();
+        player.IsInvincible = false;
         player.SetVelocity(0, rb.velocity.y);
 
     }

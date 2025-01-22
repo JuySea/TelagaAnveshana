@@ -53,7 +53,7 @@ public class CharacterStats : MonoBehaviour
 
     public int currentHealth;
     public System.Action onHealthChanged;
-    public bool isDead { get; private set; }
+    public bool isDead { get; private set; } = false;
 
     protected virtual void Awake()
     {
@@ -71,6 +71,8 @@ public class CharacterStats : MonoBehaviour
     {
         IgniteDamage();
         ChillDamage();
+
+
 
     }
 

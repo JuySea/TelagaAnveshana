@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1810,756 +1808,672 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: TheForestSpirit_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: fc951763a14f20848a44072703c8ca3e
-    - name: Frame_1
+    - name: TheForestSpirit_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: faa1726e93a64554b8774f70063659bd
-    - name: Frame_2
+    - name: TheForestSpirit_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: ae02a35184c1f564cb3033c7dff1a60e
-    - name: Frame_3
+    - name: TheForestSpirit_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 8987c3514df29c84b9f67bffddf1feff
-    - name: Frame_4
+    - name: TheForestSpirit_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 0f074f1ff9931f744ac3136cda7d38a8
-    - name: Frame_5
+    - name: TheForestSpirit_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 10
         height: 22
       spriteId: 8aa479134d26b02489f33725c8575917
-    - name: Frame_6
+    - name: TheForestSpirit_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 0c3355556982d1747916713f6243e4bc
-    - name: Frame_7
+    - name: TheForestSpirit_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: fbcec1097bc984942ada7a96506145ee
-    - name: Frame_8
+    - name: TheForestSpirit_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: 0e0f22a727c56194890425862b41fab0
-    - name: Frame_9
+    - name: TheForestSpirit_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: 8f95d32475efefa45b32792b01fbc11c
-    - name: Frame_10
+    - name: TheForestSpirit_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 5c1d6ca5a8f8f0e4f9d0c7e0a7df74f4
-    - name: Frame_11
+    - name: TheForestSpirit_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: 83e4f65df52906f4fada5b1ae5f54de9
-    - name: Frame_12
+    - name: TheForestSpirit_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: ef12924c5106dcb4698d03a4dcd597db
-    - name: Frame_13
+    - name: TheForestSpirit_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 11
         height: 21
       spriteId: abbb068603e6f784cbf781351e97d060
-    - name: Frame_14
+    - name: TheForestSpirit_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 10
         height: 19
       spriteId: 7445908ff9c07014188ba9b591ff3903
-    - name: Frame_15
+    - name: TheForestSpirit_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 11
         height: 17
       spriteId: dc429553288710e4a8b7d2c0e4769f9b
-    - name: Frame_16
+    - name: TheForestSpirit_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 15
         height: 13
       spriteId: 4bd579090f19b0545b0fa26949800abb
-    - name: Frame_17
+    - name: TheForestSpirit_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 16
         height: 13
       spriteId: 2c451580d225c7d47b934e57dd2d3946
-    - name: Frame_18
+    - name: TheForestSpirit_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 19
         height: 9
       spriteId: 464b6ecbe0c921a42bbb7bd5feb641ab
-    - name: Frame_19
+    - name: TheForestSpirit_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 18
         height: 8
       spriteId: 179645001725e35408075a98947f3d54
-    - name: Frame_20
+    - name: TheForestSpirit_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 18
         height: 11
       spriteId: 1cc9c5aabb2fff749a6d930eb5e0ef9c
-    - name: Frame_21
+    - name: TheForestSpirit_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 18
         height: 14
       spriteId: b6bfa518a3daf384180c3a9ac86c23a3
-    - name: Frame_22
+    - name: TheForestSpirit_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 18
         height: 18
       spriteId: 2a9c28fea7fb3ad43836853124cd28ca
-    - name: Frame_23
+    - name: TheForestSpirit_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 18
         height: 19
       spriteId: 4ae5d4fc113ed334d9abc44fbc215d4a
-    - name: Frame_24
+    - name: TheForestSpirit_Frame_24
       frameIndex: 24
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: bfff6c51b429578448da1cdbfcfeb881
-    - name: Frame_25
+    - name: TheForestSpirit_Frame_25
       frameIndex: 25
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 57347d4dd8c45d642aaa05f822214d6b
-    - name: Frame_26
+    - name: TheForestSpirit_Frame_26
       frameIndex: 26
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 20510b4e87e4ebb46824446501b114ab
-    - name: Frame_27
+    - name: TheForestSpirit_Frame_27
       frameIndex: 27
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: a39f546b4442d9a47a5ba9714d9e9f14
-    - name: Frame_28
+    - name: TheForestSpirit_Frame_28
       frameIndex: 28
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 22
       spriteId: b8c8f3d64d7eb414fbbf0507782c6bd2
-    - name: Frame_29
+    - name: TheForestSpirit_Frame_29
       frameIndex: 29
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 11
         height: 19
       spriteId: 0804636e5451b184aa598c8c415c2b13
-    - name: Frame_30
+    - name: TheForestSpirit_Frame_30
       frameIndex: 30
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 13
         height: 18
       spriteId: d98aba3259b0a6f42b7851129b074789
-    - name: Frame_31
+    - name: TheForestSpirit_Frame_31
       frameIndex: 31
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 15
         height: 18
       spriteId: 149d35e966694bd4da1fdd403fa01073
-    - name: Frame_32
+    - name: TheForestSpirit_Frame_32
       frameIndex: 32
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 18
         height: 18
       spriteId: 2bdb1aa36df83b14dabecd7154d91bb1
-    - name: Frame_33
+    - name: TheForestSpirit_Frame_33
       frameIndex: 33
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: e1cfaf14b0bd52e499be58d87c637ba4
-    - name: Frame_34
+    - name: TheForestSpirit_Frame_34
       frameIndex: 34
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 11
         height: 22
       spriteId: 8b3ed184bf9fa4c4e9b0d08f444a04b9
-    - name: Frame_35
+    - name: TheForestSpirit_Frame_35
       frameIndex: 35
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 11
         height: 19
       spriteId: 370251eab5dd92e41b18e673fb5c03c6
-    - name: Frame_36
+    - name: TheForestSpirit_Frame_36
       frameIndex: 36
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 5ed11132653ff2a459beb339115b7eb6
-    - name: Frame_37
+    - name: TheForestSpirit_Frame_37
       frameIndex: 37
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 14671d7537305e249816d463b6478ab0
-    - name: Frame_38
+    - name: TheForestSpirit_Frame_38
       frameIndex: 38
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 005cfa0c2a224f749a4435f16480ec75
-    - name: Frame_39
+    - name: TheForestSpirit_Frame_39
       frameIndex: 39
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 69edb9aa842c83c43b381a9b1b4c10df
-    - name: Frame_40
+    - name: TheForestSpirit_Frame_40
       frameIndex: 40
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 3d4a3ab5165e5404cb97ff0da97101bd
-    - name: Frame_41
+    - name: TheForestSpirit_Frame_41
       frameIndex: 41
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: b9943481bad9d664da849a707ed65c17
-    - name: Frame_42
+    - name: TheForestSpirit_Frame_42
       frameIndex: 42
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: 681366baa04fd2640b1408d5e224958d
-    - name: Frame_43
+    - name: TheForestSpirit_Frame_43
       frameIndex: 43
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: b34326dd9b329ad47a8ef96e7e24ed28
-    - name: Frame_44
+    - name: TheForestSpirit_Frame_44
       frameIndex: 44
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 54
         height: 19
       spriteId: cf193266a77ee5c4f8537f0fbd13f4e8
-    - name: Frame_45
+    - name: TheForestSpirit_Frame_45
       frameIndex: 45
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 49
         height: 18
       spriteId: 6b339786756fc4a488120eaf20d035be
-    - name: Frame_46
+    - name: TheForestSpirit_Frame_46
       frameIndex: 46
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 49
         height: 18
       spriteId: d718211140ba6e040b18ea43a4c9b1fb
-    - name: Frame_47
+    - name: TheForestSpirit_Frame_47
       frameIndex: 47
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 49
         height: 18
       spriteId: 427c5c1809326584889f5a059c1be024
-    - name: Frame_48
+    - name: TheForestSpirit_Frame_48
       frameIndex: 48
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 46
         height: 18
       spriteId: 9827fd97c0c66d3469929722fd5deffb
-    - name: Frame_49
+    - name: TheForestSpirit_Frame_49
       frameIndex: 49
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 44
         height: 18
       spriteId: e835d93fb41e1c54f95837f8d5c5fd92
-    - name: Frame_50
+    - name: TheForestSpirit_Frame_50
       frameIndex: 50
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 11
         height: 18
       spriteId: ab4637e91a33b2d4ca7bb015a8894a54
-    - name: Frame_51
+    - name: TheForestSpirit_Frame_51
       frameIndex: 51
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 11d5096e0fb0c834b89f0866f7263288
-    - name: Frame_52
+    - name: TheForestSpirit_Frame_52
       frameIndex: 52
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 0ecb88439b099304ea2909bef0d9003f
-    - name: Frame_53
+    - name: TheForestSpirit_Frame_53
       frameIndex: 53
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 42a3d19db43b6c342af3ba5d9e9d554b
-    - name: Frame_54
+    - name: TheForestSpirit_Frame_54
       frameIndex: 54
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: f0c501d00e5c1e94a9f1caca6c4e51e0
-    - name: Frame_55
+    - name: TheForestSpirit_Frame_55
       frameIndex: 55
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 24
       spriteId: 52620ced362b1d14b9c42c3893a6b2e6
-    - name: Frame_56
+    - name: TheForestSpirit_Frame_56
       frameIndex: 56
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 23
       spriteId: 87e70df8b6f883e4cb08d448cc3969bb
-    - name: Frame_57
+    - name: TheForestSpirit_Frame_57
       frameIndex: 57
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 5eabe18b8bb1df34d9b38b1a695c8360
-    - name: Frame_58
+    - name: TheForestSpirit_Frame_58
       frameIndex: 58
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 3b522d6fcad0eb5438855db83a50370c
-    - name: Frame_59
+    - name: TheForestSpirit_Frame_59
       frameIndex: 59
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: 55e3baadcec1b4a42a42dd2f8709de38
-    - name: Frame_60
+    - name: TheForestSpirit_Frame_60
       frameIndex: 60
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 23
       spriteId: cbd3f0f567b741240bce9c01c994f047
-    - name: Frame_61
+    - name: TheForestSpirit_Frame_61
       frameIndex: 61
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 22
       spriteId: 262670f910e4e1d4a9e307819a081c6a
-    - name: Frame_62
+    - name: TheForestSpirit_Frame_62
       frameIndex: 62
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 20
       spriteId: 6c5067c5737b1ca4e9cd7b03e7283087
-    - name: Frame_63
+    - name: TheForestSpirit_Frame_63
       frameIndex: 63
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 18
       spriteId: 778708ae916353544b2e80ebf7e6f056
-    - name: Frame_64
+    - name: TheForestSpirit_Frame_64
       frameIndex: 64
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 18
       spriteId: a7f3d1baf39fe99429d96494f55cf3c7
-    - name: Frame_65
+    - name: TheForestSpirit_Frame_65
       frameIndex: 65
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 17
       spriteId: b42085439300330408702f6def44b2a9
-    - name: Frame_66
+    - name: TheForestSpirit_Frame_66
       frameIndex: 66
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 17
       spriteId: 316c474e84438814693fa9901a2f8d71
-    - name: Frame_67
+    - name: TheForestSpirit_Frame_67
       frameIndex: 67
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 18
       spriteId: 6ee4d3879ce866244a27c7e36508d0ad
-    - name: Frame_68
+    - name: TheForestSpirit_Frame_68
       frameIndex: 68
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 28
       spriteId: e2220f6099b76f24e9b51f7a8fc87e4a
-    - name: Frame_69
+    - name: TheForestSpirit_Frame_69
       frameIndex: 69
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 18
         height: 26
       spriteId: a7cc579377d35cd4aafd04e4b42b335d
-    - name: Frame_70
+    - name: TheForestSpirit_Frame_70
       frameIndex: 70
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 16
         height: 25
       spriteId: 12f7807e5e5ab2a49b59ba460923cf18
-    - name: Frame_71
+    - name: TheForestSpirit_Frame_71
       frameIndex: 71
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 16
         height: 26
       spriteId: d24d0ab3d9cb51e4b9467b832ae57010
-    - name: Frame_72
+    - name: TheForestSpirit_Frame_72
       frameIndex: 72
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 29
       spriteId: 4b59289b895823445bb8c83b08f68a36
-    - name: Frame_73
+    - name: TheForestSpirit_Frame_73
       frameIndex: 73
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 16
         height: 29
       spriteId: 95748b3a699715942884ebfcf38e149a
-    - name: Frame_74
+    - name: TheForestSpirit_Frame_74
       frameIndex: 74
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 16
         height: 28
       spriteId: cca78d5aee174de4e92a53320fbe3e3c
-    - name: Frame_75
+    - name: TheForestSpirit_Frame_75
       frameIndex: 75
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 11
         height: 20
       spriteId: 5dccc40cbda459047943a1bdeb8c60b7
-    - name: Frame_76
+    - name: TheForestSpirit_Frame_76
       frameIndex: 76
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 18
       spriteId: 5869388c6727a2d4f8c4c3aa8aeb7617
-    - name: Frame_77
+    - name: TheForestSpirit_Frame_77
       frameIndex: 77
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 22
       spriteId: c79b6604aca4d934c9893c2c853c8029
-    - name: Frame_78
+    - name: TheForestSpirit_Frame_78
       frameIndex: 78
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 22
       spriteId: bea3764a725dd1741a1a77ace8861e6b
-    - name: Frame_79
+    - name: TheForestSpirit_Frame_79
       frameIndex: 79
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 22
       spriteId: 0c22d9adca1a6f04fbb5ee54e46792e4
-    - name: Frame_80
+    - name: TheForestSpirit_Frame_80
       frameIndex: 80
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 22
       spriteId: 8e9be2608462c1945b1acc8de7650899
-    - name: Frame_81
+    - name: TheForestSpirit_Frame_81
       frameIndex: 81
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 22
       spriteId: 8d58ca4ddad981846976e1c8b8b6d0d6
-    - name: Frame_82
+    - name: TheForestSpirit_Frame_82
       frameIndex: 82
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 20
       spriteId: 276cd538f475cae499bc074e85181aa1
-    - name: Frame_83
+    - name: TheForestSpirit_Frame_83
       frameIndex: 83
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -2569,7 +2483,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 56, y: 29}

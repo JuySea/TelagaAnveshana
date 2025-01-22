@@ -30,6 +30,8 @@ public class SkeletonBattleState : EnemyState
 
         if(skeleton.IsPlayerDetected())
         {
+            if (player.GetComponent<Player>().IsDead)
+                return;
             stateTimer = skeleton.battleTime;
             if (skeleton.IsPlayerDetected().distance <= skeleton.attackDistance && CanAttack())
             {
